@@ -19,8 +19,8 @@ python stage1.py -p "Newtonsoft.Json" -s "https://api.nuget.org/v3-flatcontainer
 python stage1.py -p "Test"  # ошибка: missing --source
 
 python stage1.py -p "Test" -s "url" -t 2  # ошибка: invalid choice
-
-### Этап 2
+```
+## Этап 2
 Минимальный прототип с настройкой параметров через командную строку.
 
 **Параметры:**
@@ -30,8 +30,8 @@ python stage1.py -p "Test" -s "url" -t 2  # ошибка: invalid choice
 **Пример:**
 ```bash
 python stage1.py -p "Microsoft.EntityFrameworkCore"
-
-### Этап 5
+```
+## Этап 5
 Минимальный прототип с настройкой параметров через командную строку.
 
 **Параметры:**
@@ -41,3 +41,4 @@ python stage1.py -p "Microsoft.EntityFrameworkCore"
 **Пример:**
 ```bash
 python stage1.py -p "Microsoft.EntityFrameworkCore" -d 1
+```
